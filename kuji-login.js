@@ -1,6 +1,6 @@
-const { runLegacyCombinedFlow } = require('./src/features/combined/run');
+const { runWebSearchFeature } = require('./src/features/webSearch/run');
 
-runLegacyCombinedFlow().catch((e) => {
+runWebSearchFeature().catch((e) => {
   console.error('❌ 実行中にエラーが発生しました:', e.message);
   process.exit(1);
 });
