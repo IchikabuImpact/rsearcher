@@ -1,10 +1,10 @@
 module.exports = {
     email: 'kenchanbaken@gmail.com',
     pass: 'ginza555',
-    chromedriver: 'C:\\path\\to\\chromedriver.exe',
+    chromedriver: '/home/ichikabu/opt/chrome-for-testing/147/chromedriver-linux64/chromedriver',
     DB_HOST: '127.0.0.1',
     DB_USER: 'rpointworker',
-    DB_PASSWORD: 'your_password',
+    DB_PASSWORD: '331155',
     DB_NAME: 'rpointworker',
-    csvExportPath: '/mnt/d/drive/マイドライブ/rpoint/histories.csv'
+    csvExportPath: './histories.csv'
 };
