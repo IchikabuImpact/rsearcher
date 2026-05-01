@@ -20,7 +20,7 @@ npm start
 
 ## 構成
 
-- `kuji-login.js`: エントリーポイント
+- `run-rakuten-web-search.js`: エントリーポイント
 - `scripts/run-web-search.js`: Web検索機能実行スクリプト
 - `src/rakuten/auth.js`: 楽天ログインとWeb検索側の認証連携
 - `src/features/webSearch/*`: キーワード読み込みと検索実行
