@@ -2,9 +2,9 @@
   "name": "rakuten-kuji-auto",
   "version": "1.0.0",
   "description": "Rakuten Web Search Automation",
-  "main": "kuji-login.js",
+  "main": "run-rakuten-web-search.js",
   "scripts": {
-    "start": "node kuji-login.js",
+    "start": "node run-rakuten-web-search.js",
     "test": "node --test",
     "websearch": "node scripts/run-web-search.js"
   },
