@@ -8,7 +8,7 @@ set -euo pipefail
 PROJECT_DIR="/home/ichikabu/projects/rpointwoker"
 LOG_FILE="${PROJECT_DIR}/cron.log"
 NODE_BIN="/home/ichikabu/.nvm/versions/node/v24.13.0/bin/node"
-ENTRYPOINT="run-rakuten-web-search.js"
+ENTRYPOINT="rsearch.js"
 
 # 0〜1時間（3600秒）の間でランダムに待機
 RANDOM_DELAY=$((RANDOM % 3600))

@@ -20,15 +20,9 @@ npm start
 
 ## 構成
 
-- `run-rakuten-web-search.js`: エントリーポイント
+- `rsearch.js`: エントリーポイント
 - `scripts/run-web-search.js`: Web検索機能実行スクリプト
 - `src/rakuten/auth.js`: 楽天ログインとWeb検索側の認証連携
 - `src/features/webSearch/*`: キーワード読み込みと検索実行
 - `src/core/browser.js`: Selenium/ChromeDriver 初期化
 
-## 削除した機能
-
-- 楽天ポイント履歴の取得・DB保存
-- Webサーバー起動（ダッシュボード）
-- 楽天くじ一覧を開く処理
-- くじを個別に開く処理
